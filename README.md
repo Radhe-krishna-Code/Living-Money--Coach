@@ -7,8 +7,8 @@ Most finance apps act as passive trackers. **Living Money Coach** turns raw spen
 ---
 
 ## 🔗 Quick Links
-- **Live App:** [Paste your Streamlit Community Cloud URL here]
-- **Demo Video:** [Paste your Unlisted YouTube / Google Drive Link here]
+- **Live App:** [https://living-money-coach.streamlit.app/]
+- **Demo Video:** [https://drive.google.com/file/d/1nErR_rz8mO4PR8Eqs3SzyUpT6PIOluk8/view?usp=drive_link]
 - **Repository:** https://github.com/Radhe-krishna-Code/Living-Money--Coach
 
 ---
@@ -49,3 +49,19 @@ Most finance apps act as passive trackers. **Living Money Coach** turns raw spen
    ```bash
    git clone [https://github.com/Radhe-krishna-Code/Living-Money--Coach.git](https://github.com/Radhe-krishna-Code/Living-Money--Coach.git)
    cd Living-Money--Coach
+
+   Install dependencies
+
+Bash
+pip install -r requirements.txt
+Set up your API key
+Create a .env file in the root folder and add your Gemini API key:
+
+Code snippet
+GEMINI_API_KEY="your_api_key_here"
+Launch the app
+
+Bash
+streamlit run app.py
+
+Isey commit karke push kar de (`git add README.md` → `git commit -m "Add README"` → `git push`) ya seedha GitHub website pe jaakar **Add a README / Edit** se paste karke save kar de!
