@@ -52,16 +52,3 @@ Most finance apps act as passive trackers. **Living Money Coach** turns raw spen
 
    Install dependencies
 
-Bash
-pip install -r requirements.txt
-Set up your API key
-Create a .env file in the root folder and add your Gemini API key:
-
-Code snippet
-GEMINI_API_KEY="your_api_key_here"
-Launch the app
-
-Bash
-streamlit run app.py
-
-Isey commit karke push kar de (`git add README.md` → `git commit -m "Add README"` → `git push`) ya seedha GitHub website pe jaakar **Add a README / Edit** se paste karke save kar de!
